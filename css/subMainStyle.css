@@ -1,0 +1,45 @@
+/* Navigation Links */
+.nav-pills .nav-link {
+    color: #0f0f0f;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-pills .nav-link:hover {
+    color: #ff305b;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ff305b;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-pills .nav-link.active:hover {
+    background-color: #e0204b;
+}
+
+/* Section Cards */
+section .card {
+    position: relative;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+section .card:hover {
+    transform: translateY(-15px); /* Increased the hover effect */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Adjusted shadow to be more noticeable */
+}
+
+/* Card Links */
+section .card a {
+    color: inherit; /* Maintain initial color */
+    text-decoration: none;
+    transition: 0.5s all
+}
+
+section .card a:hover {
+    background-color: white !important;
+    text-decoration: none;
+    color: #ff305b;
+    outline: solid 1px #ff305b; /* Ensure outline is visible */
+}
