@@ -1,333 +1,279 @@
 <!doctype html>
+<!-- *right to left -->
 <html lang="ar" dir="rtl">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>قسم التصميم</title>
+    <!--*Title   -->
+    <title>AI in Action</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--* ICONS-->
 
     <!--* Start CSS & Bootstrap offline Links-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/subMainStyle.css"> <!--* Main CSS File-->
+    <link rel="stylesheet" href="css/style.css"> <!--* Main CSS File-->
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> <!--* Typed.js Script-->
     <!--* End CSS & Bootstrap offline Links-->
 
 </head>
 
 <body>
-    <section>
-        <div class="container">
-            <h2 class="text-center mt-5 " style="color:#ff305b;">قسم التصميم</h2>
-            <p class="text-center mb-4 ">
-                اكتشف أدوات التصميم الجرافيكي لتحسين إبداعك في مجال الفن الرقمي</p>
-            <ul class="nav nav-pills mb-3 justify-content-center mt-5" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
-                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">الكل</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-free-tab" data-bs-toggle="pill" data-bs-target="#pills-free"
-                        type="button" role="tab" aria-controls="pills-free" aria-selected="false">مجاني</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-paid-tab" data-bs-toggle="pill" data-bs-target="#pills-paid"
-                        type="button" role="tab" aria-controls="pills-paid" aria-selected="false">مدفوع</button>
-                </li>
+    <!-- Navbar -->
 
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
-                    tabindex="0">
-                    <!-- *All -->
-                    <div class="container">
-                        <div class="row g-4 justify-content-center">
-                            <!--   Vectornator -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/Vectornator.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> Vectornator
-                                        </h5>
-                                        <p class="card-text">
-                                            هو برنامج تصميم رسومي يعتمد على (Vector Graphics) ، ويتيح
-                                            للمستخدمين إنشاء تصاميم </p>
-                                        <a href="https://www.linearity.io/blog/vectornator-x5-4/" target="_blank"
-                                            class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   GIMP -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/gimp.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> GIMP
-                                        </h5>
-                                        <p class="card-text">
-                                            يُستخدم على نطاق واسع من قبل المصممين والفنانين الرقميين، وهو يدعم أنظمة
-                                            تشغيل ويندوز وماك ولينكس</p>
-                                        <a href="https://www.gimp.org" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   Krita  -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/krita.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> Krita
-                                        </h5>
-                                        <p class="card-text">
-                                            هي أداة تصميم ورسومات مفتوحة المصدر ومتخصصة في الرسم الرقمي والتوضيح</p>
-                                        <a href="https://krita.org" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   VistaCreat -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/vistaCreate.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> VistaCreat
-                                        </h5>
-                                        <p class="card-text">
-                                            إنشاء تصاميم مبتكرة بسهولة
-                                            و تصميم جرافيكي عبر الإنترنت</p>
-                                        <a href="https://create.vista.com" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   midjourney -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/midJourny.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> Midjourney
-                                        </h5>
-                                        <p class="card-text">
-                                            هي أداة متطورة لتوليد الصور باستخدام الذكاء الاصطناعي</p>
-                                        <a href="https://www.midjourney.com" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   Render forest -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/RenderForest.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> Render forest
-                                        </h5>
-                                        <p class="card-text">
-                                            تحتوي علي شعارات وتصاميم ومكتبة قوالب ضخمة رسوم متحركة</p>
-                                        <a href="https://www.renderforest.com" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   Adobe photoshop -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/AdobePhotoShop.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> Adobe photoshop
-                                        </h5>
-                                        <p class="card-text">أداه ل تحرير الصور و الرسومات والتصاميم و ادوات الرسم
-                                            المتقدمة</p>
-                                        <a href="https://www.adobe.com/eg_en/creativecloud/plans.html?skwcid=AL!3085!3!!e!!o!!adobe%20photoshop&mv=search&mv2=paidsearch&sdid=F4KHZP3Q&ef_id=a8a40998792d160631ac6ec2ed02eeca:G:s&s_kwcid=AL!3085!10!79577359984668!79577742202926"
-                                            target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   FreePik -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/FreePik.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> FreePik
-                                        </h5>
-                                        <p class="card-text">مكتبة ضخمة تحتوي على ملايين الصور والرسوميات تغطي مجموعة
-                                            واسعة من الموضوعات</p>
-                                        <a href=https://www.freepik.com" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-free" role="tabpanel" aria-labelledby="pills-free-tab"
-                    tabindex="0">
-                    <!-- *Free -->
-                    <div class="container">
-                        <div class="row g-4 justify-content-center">
-                            <!--   Vectornator -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/Vectornator.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> Vectornator
-                                        </h5>
-                                        <p class="card-text">
-                                            هو برنامج تصميم رسومي يعتمد على (Vector Graphics) ، ويتيح
-                                            للمستخدمين إنشاء تصاميم </p>
-                                        <a href="https://www.linearity.io/blog/vectornator-x5-4/" target="_blank"
-                                            class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   GIMP -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/gimp.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> GIMP
-                                        </h5>
-                                        <p class="card-text">
-                                            يُستخدم على نطاق واسع من قبل المصممين والفنانين الرقميين، وهو يدعم أنظمة
-                                            تشغيل ويندوز وماك ولينكس</p>
-                                        <a href="https://www.gimp.org" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   Krita  -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/krita.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> Krita
-                                        </h5>
-                                        <p class="card-text">
-                                            هي أداة تصميم ورسومات مفتوحة المصدر ومتخصصة في الرسم الرقمي والتوضيح</p>
-                                        <a href="https://krita.org" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   VistaCreat -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/vistaCreate.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> VistaCreat
-                                        </h5>
-                                        <p class="card-text">
-                                            إنشاء تصاميم مبتكرة بسهولة
-                                            و تصميم جرافيكي عبر الإنترنت</p>
-                                        <a href="https://create.vista.com" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-paid" role="tabpanel" aria-labelledby="pills-paid-tab"
-                    tabindex="0">
-                    <!-- *paid -->
-                    <div class="container">
-                        <div class="row g-4 justify-content-center">
-                            <!--   midjourney -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/midJourny.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> Midjourney
-                                        </h5>
-                                        <p class="card-text">
-                                            هي أداة متطورة لتوليد الصور باستخدام الذكاء الاصطناعي</p>
-                                        <a href="https://www.midjourney.com" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   Render forest -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/RenderForest.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> Render forest
-                                        </h5>
-                                        <p class="card-text">
-                                            تحتوي علي شعارات وتصاميم ومكتبة قوالب ضخمة رسوم متحركة</p>
-                                        <a href="https://www.renderforest.com" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   Adobe photoshop -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/AdobePhotoShop.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> Adobe photoshop
-                                        </h5>
-                                        <p class="card-text">أداه ل تحرير الصور و الرسومات والتصاميم و ادوات الرسم
-                                            المتقدمة</p>
-                                        <a href="https://www.adobe.com/eg_en/creativecloud/plans.html?skwcid=AL!3085!3!!e!!o!!adobe%20photoshop&mv=search&mv2=paidsearch&sdid=F4KHZP3Q&ef_id=a8a40998792d160631ac6ec2ed02eeca:G:s&s_kwcid=AL!3085!10!79577359984668!79577742202926"
-                                            target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--   FreePik -->
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card text-center shadow-sm">
-                                    <div class="card-body">
-                                        <img src="imgs/FreePik.jpg" class="card-logo w-100 mb-3" alt="Logo 1"
-                                            style="height: 250px;">
-                                        <h5 class="card-title"> FreePik
-                                        </h5>
-                                        <p class="card-text">مكتبة ضخمة تحتوي على ملايين الصور والرسوميات تغطي مجموعة
-                                            واسعة من الموضوعات</p>
-                                        <a href=https://www.freepik.com" target="_blank" class="btn btn-primary"
-                                            style="background-color: #ff305b; border: none; ">زيارة</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-4 navbar-expand-lg navbar-dark bg-dark">
+        <div class="container d-flex justify-content-between">
+            <!-- Logo aligned to the right -->
+            <a class="navbar-brand ms-auto" href="#">AI in Action</a>
+            <!-- Toggler for mobile view -->
+            <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation links aligned to the left -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#Services">ماذا نقدم</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">عن الأداة</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" onclick="window.location='whoWeAre.html'">من
+                            نحن</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">تواصل معنا</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#design-tools">التصميم</a></li> -->
+                </ul>
             </div>
+        </div>
+    </nav>
+    <!--* Start Home Section-->
+
+    <!--
+h1    Most Important
+h2    
+h3    
+h4    
+h5    low
+
+     -->
+
+    <header id="Home" class="vh-100">
+        <div class="overlay h-100 text-center text-white d-flex justify-content-center align-items-center">
+            <div class="container">
+                <h5 class="fw-bold">مرحبا بك في</h5>
+                <h1>AI in Action</h1>
+                <h4> <span id="element"></span></h4>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- <h6></h6>
+    <p></p>
+    <span></span> -->
+
+
+
+    <!--* End Home Section-->
+
+    <section id="Services" class="services py-5 mt-5 mb-1 bg-light">
+        <div class="container">
+            <div class="header-section text-center">
+                <h2 class="mx-auto ">ماذا نقدم</h2>
+            </div>
+            <div class="row mt-4 text-center justify-content-center">
+
+
+
+
+
+
+
+
+
+                <!-- *Translation -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="item">
+                        <i class="fa-solid fa-language mb-3"></i>
+                        <h3>الترجمه</h3>
+                        <p class="mx-auto">اكتشف أدوات الترجمة لتحسين دقة الترجمة بين اللغات</p>
+                        <button class="btn ms-1 btn-dark btn-custom py-2"
+                            onclick="window.location='translation.html'">استكشف</button>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <!-- *Content Writing -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="item">
+                        <i class="fa-solid fa-pen mb-3"></i>
+                        <h3>كتابة المحتوى</h3>
+                        <p class="mx-auto">استكشف أفضل الأدوات لإنشاء المحتوى وكتابة النصوص</p>
+                        <button class="btn ms-1 btn-dark btn-custom py-2"
+                            onclick="window.location='contentWriting.html'">استكشف</button>
+
+                    </div>
+                </div>
+                <!-- *Programming -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="item">
+                        <i class="fas fa-code mb-3"></i>
+                        <h3>برمجة</h3>
+                        <p class="mx-auto">استكشف مجموعة واسعة من الموارد وأدوات التطوير البرمجيه</p>
+                        <button class="btn ms-1 btn-dark btn-custom py-2"
+                            onclick="window.location='Programming.html'">استكشف</button>
+
+                    </div>
+                </div>
+                <!-- *Voice -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="item">
+                        <i class="fas fa-microphone mb-3"></i>
+                        <h3>تحسين الصوت</h3>
+                        <p class="mx-auto">قم بتحسين وتحرير الصوت باستخدام الأدوات المتقدمة</p>
+                        <button class="btn ms-1 btn-dark btn-custom py-2"
+                            onclick="window.location='Voice.html'">استكشف</button>
+
+                    </div>
+                </div>
+                <!-- *Marketing -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="item">
+                        <i class="fa-solid fa-envelopes-bulk mb-3"></i>
+                        <h3>التسويق</h3>
+                        <p class="mx-auto">اكتشف أدوات التسويق لزيادة عملك والوصول إلى جمهورك</p>
+                        <button class="btn ms-1 btn-dark btn-custom py-2"
+                            onclick="window.location='marketing.html'">استكشف</button>
+
+                    </div>
+                </div>
+                <!-- *Design -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="item">
+                        <i class="fas fa-palette mb-3"></i>
+                        <h3>التصميم</h3>
+                        <p class="mx-auto">اكتشف أدوات التصميم الجرافيكي لتحسين إبداعك في مجال الفن الرقمي</p>
+                        <button class="btn ms-1 btn-dark btn-custom py-2"
+                            onclick="window.location='Graphic.html'">استكشف</button>
+
+                    </div>
+                </div>
+                <!-- i -- ICON -->
+                <!-- *Decoration -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="item">
+                        <i class="fa-solid fa-building mb-3"></i>
+                        <h3>الديكور</h3>
+                        <p class="mx-auto">اكتشف الادوات التي تساعدك في تزيين المساحات الافتراضية</p>
+                        <button class="btn ms-1 btn-dark btn-custom py-2"
+                            onclick="window.location='decoration.html'">استكشف</button>
+
+                    </div>
+                </div>
+                <!-- *Palgiarism -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="item">
+                        <i class="fa-solid fa-book-bookmark mb-3"></i>
+                        <h3>كشف الانتحال العلمي</h3>
+                        <p class="mx-auto">استكشف أدوات كشف الانتحال العلمي وتحليل النصوص لضمان أصالة أعمالك</p>
+                        <button class="btn ms-1 btn-dark btn-custom py-2"
+                            onclick="window.location='Plagiarism.html'">استكشف</button>
+
+                    </div>
+                </div>
+                <!-- *Photo Analysis -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="item">
+                        <i class="fa-solid fa-image mb-3"></i>
+                        <h3>تحليل الصور</h3>
+                        <p class="mx-auto">اكتشف قوة تحليل الصور باستخدام أدوات متقدمة تعتمد على الذكاء الاصطناعي</p>
+                        <button class="btn ms-1 btn-dark btn-custom py-2"
+                            onclick="window.location='PhotoAnalysis.html'">استكشف</button>
+                    </div>
+                </div>
+                <!-- *Content Recommendations -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="item">
+                        <i class="fa-solid fa-lightbulb mb-3"></i>
+                        <h3>توصيات للمحتوي</h3>
+                        <p class="mx-auto">احصل على اقتراحات محتوى مخصصة تعتمد على اهتماماتك</p>
+                        <button class="btn ms-1 btn-dark btn-custom py-2"
+                            onclick="window.location='RecommendContent.html'">استكشف</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
-    <footer class="bg-dark text-white text-center py-3 mt-4">
+
+    <!--
+************************ D e v e l o p e d   b y   G B O Y ********************
+                   *   _____ ____   ______     __*
+                   *  / ____|  _ \ / __ \ \   / /*
+                   * | |  __| |_) | |  | \ \_/ / *
+                   * | | |_ |  _ <| |  | |\   /  *
+                   * | |__| | |_) | |__| | | |   *
+                   *  \_____|____/ \____/  |_|   * 
+********************************************************************************
+*-->
+
+    <section id="about" class="  py-5 mb-1">
+        <div class="container">
+            <h2 class="text-center mb-4 " style="color:#ff305b;">عن الأدوات</h2>
+            <p class="text-center mb-4 ">
+                توفر هذه الأدوات حلولًا متكاملة للمبدعين والمطورين، مما يسمح لهم بالتحسين والإنتاجية في مجالات متنوعة.
+                من كتابة المحتوى إلى التصميم الجرافيكي والبرمجة، تم تصميم هذه الأدوات لتلائم احتياجاتك سواء كنت محترفًا
+                أو مبتدئًا. كل أداة توفر واجهة سهلة الاستخدام ومجموعة من الخصائص التي تعزز من إبداعك وتساعدك في إنجاز
+                مشاريعك بكفاءة واحترافية.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
         &copy; 2024 دليل أدوات الذكاء الاصطناعي - جميع الحقوق محفوظة
     </footer>
 
 
-
-
+    <!--* Start JS & Bootstrap JS Bundele offline Links-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!--* End JS & Bootstrap JS Bundele offline Links-->
+
+    <script>
+        var options = {
+            strings: [
+                "أفضل الأدوات لتحسين إنتاجيتك",
+                "اكتشف أدوات قوية لزيادة الإنتاجية",
+                "دليل كامل لتحسين مهاراتك باستخدام الذكاء الاصطناعي"
+            ],
+            typeSpeed: 50,  // Speed of typing (in ms)
+            backSpeed: 30,  // Speed of deleting (in ms)
+            backDelay: 1000,  // Delay before starting to delete
+            startDelay: 500,  // Delay before starting to type
+            loop: true,  // Loop through the strings
+            showCursor: true  // Show cursor
+        };
+
+        var typed = new Typed("#element", options);
+
+
+
+
+    </script>
+
+
+
 
 </body>
 
